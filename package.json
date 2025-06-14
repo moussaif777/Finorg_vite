@@ -26,5 +26,9 @@
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.33.1",
     "vite": "^7.0.0-beta.0"
+  },
+  "scripts": {
+    "build": "vite build --mode production",
+    "build:skip-ts": "vite build"
   }
 }
